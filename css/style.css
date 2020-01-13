@@ -119,9 +119,12 @@ src: local('Avant Garde Demi Oblique BT'), url('../fonts/AVGARDDO_2.woff') forma
       overflow: hidden;
       background-color: #3f87a6;
       position: relative;
-      height: 50px;
+	  /* height: 50px; */
+	  display: flex;
+	  justify-content: end;
+	  align-items: center;
     }
-    .topnav #myLinks {
+    #myLinks {
       display: none;
     }
     .topnav a {
@@ -135,10 +138,12 @@ src: local('Avant Garde Demi Oblique BT'), url('../fonts/AVGARDDO_2.woff') forma
 
     .topnav a.icon {
       background: #3f87a6;
-      display: block;
-      position: absolute;
+      /* display: inline; */
+      /* position: absolute;
       right: 0;
-      top: 0;
+	  top: 0; */
+	  margin-left: auto;
+	  
     }
     .topnav a:hover {
       background-color: #F2C14E;
@@ -954,7 +959,7 @@ ul.social-slide li i.mac{
 }
 .callbacks_tabs li{
 	display: inline-block;
-	margin: 0 .5em;
+	margin: 0 -0.2em
 }
 @media screen and (max-width: 600px) {
   .callbacks_nav {
@@ -2955,7 +2960,7 @@ opacity: 0;
 	  top: 80%;
 	}
 	.callbacks_tabs li {
-		margin: 0 0.2em;
+		margin: 0 -0.2em
 	}
 	.banner-bottom-info h3 {
 	  font-size: 24px;

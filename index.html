@@ -44,44 +44,47 @@ jQuery(document).ready(function($) {
 		<div class="header">
 			<div class="header-middle">
 				<!-- container -->
-				<div class="container row">
-					<div class="header-middle-logo  col-md-3">
-							<a href="index.html"><img src="images/dnsflogo.png" width="100%"></a>
+				<div class="container-fluid">
+					<div class="row">
+							<div class="header-middle-logo  col-md-3">
+									<a href="index.html"><img src="images/dnsflogo.png" width="100%" class="img-fluid"></a>
+							</div>
+							<div class="header-middle-right col-md-3">
+							</div>
+							<div class="header-middle-right col-md-6">
+									<div class="phone">
+										<span> </span>
+										<ul>
+											<li class="gray">Phone</li>
+											<li>+234 (0) 8037176661</li>
+											<li> </li>
+										</ul>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="location">
+										<span> </span>
+										<ul>
+											<li class="gray">Address</li>
+											<li>32 Balarabe Musa Crescent, </li> 
+											<li>Victoria Island,</li>
+											<li>Lagos, Nigeria</li>
+										</ul>
+										
+									</div> 
+									
+								
+									<div class="clearfix"> </div>
+								</div>
+								<div class="clearfix"> </div>
 					</div>
-					<div class="header-middle-right col-md-3">
-					</div>
-					<div class="header-middle-right col-md-6">
-						
-						<div class="phone">
-							<span> </span>
-							<ul>
-								<li class="gray">Phone</li>
-								<li>+234 (0) 8037176661</li>
-								<li> </li>
-							</ul>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="location">
-							<span> </span>
-							<ul>
-								<li class="gray">Address</li>
-								<li>32 Balarabe Musa Crescent, </li> 
-								<li>Victoria Island,</li>
-								<li>Lagos, Nigeria</li>
-							</ul>
-							
-						</div> 
-						
 					
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
+						
 				</div>
 				<!-- //container -->
 			</div>
 
 
-
+		</div>
 
 
 
@@ -89,7 +92,7 @@ jQuery(document).ready(function($) {
 	<div class="mobile-container">
 		<!-- tope navigation menu -->
 		<div class="topnav">
-			<a href="index.html" class="active dnsf" style="color:#fff ">
+			<a href="index.html" class="active" style="color:#fff ">
 				
 			</a>
 			<div id="myLinks">
@@ -102,6 +105,7 @@ jQuery(document).ready(function($) {
 				<i class="fa fa-bars"></i>
 			</a>
 		</div>
+		
 
 
 
@@ -134,9 +138,9 @@ jQuery(document).ready(function($) {
 							
 							</script> -->
 						<!-- /script-for-menu -->
-				<!-- </div> -->
+				</div>
 				<!-- //container -->
-			<!-- </div> -->
+			</div>
 
 
 
@@ -156,7 +160,7 @@ jQuery(document).ready(function($) {
 
 
 			<div class="blue"> </div>
-		</div>
+		<!-- </div> -->
 		<!-- //header -->
 		<!-- banner -->
 		<div class="banner-slider">
@@ -203,11 +207,12 @@ jQuery(document).ready(function($) {
 						</ul>
 					</div>
 		</div>
+		<div class="clearfix"> </div>
 		<!-- //banner -->
 		<!-- how -->
 		<div class="how">
 			<!-- container -->
-			<div class="container">
+			<div class="">
 				<div class="how-top-grids">
 					<div class="col-md-7 how-left">
 						<h3 class="wow bounceIn" data-wow-delay="0.4s">Popular Post</h3>
@@ -464,8 +469,12 @@ jQuery(document).ready(function($) {
 			var x = document.getElementById("myLinks");
 			if (x.style.display === "block") {
 				x.style.display = 'none';
+				document.querySelector('.icon').style.position = 'relative';
 			} else {
 				x.style.display = 'block';
+				document.querySelector('.icon').style.position = 'absolute';
+				document.querySelector('.icon').style.top = 0;
+				document.querySelector('.icon').style.right = 0;
 			}
 		}
 	</script>
