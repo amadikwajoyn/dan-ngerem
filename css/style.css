@@ -119,6 +119,7 @@ src: local('Avant Garde Demi Oblique BT'), url('../fonts/AVGARDDO_2.woff') forma
       overflow: hidden;
       background-color: #3f87a6;
       position: relative;
+      height: 50px;
     }
     .topnav #myLinks {
       display: none;
@@ -149,6 +150,7 @@ src: local('Avant Garde Demi Oblique BT'), url('../fonts/AVGARDDO_2.woff') forma
       color: white;
       text-align: left !important;
       font-family: "'Swis721CnBTBold'";
+      height: 100%;
     }
     .active:hover {
       /*background-color: #fff !important;*/
