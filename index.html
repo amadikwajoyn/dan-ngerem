@@ -5,6 +5,7 @@
 <title> Home :: DNSF</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="images/dnsflogo.png">
 <meta name="keywords" content="Dan, Ngerem  Sports  Foundation  in Owerri, Imo State, Nigeria, football, footballer" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -12,6 +13,7 @@
 <!-- web-font -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,700,800,400,600' rel='stylesheet' type='text/css'>
 		<!-- web-font -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- js -->
 <script src="js/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -40,32 +42,10 @@ jQuery(document).ready(function($) {
 	<body>
 		<!-- header -->
 		<div class="header">
-			<!-- <div class="header-top"> -->
-				<!-- container -->
-				<!-- <div class="container">
-					<div class="header-top-left">
-						<ul>
-							<li><a href="#">Career</a></li>      
-							<li><a href="#">Professionals</a></li>       
-							<li><a href="#">News</a></li>     
-							<li><a href="#">Individuals</a><li>
-						</ul>
-					</div>
-					<div class="header-top-right">
-						<form>
-							<input type="text" placeholder=" " required="">
-							<input type="submit" value=" ">
-							<div class="clearfix"> </div>
-						</form>
-					</div>
-					<div class="clearfix"> </div>
-				</div> -->
-				<!-- //container -->
-			<!-- </div> -->
 			<div class="header-middle">
 				<!-- container -->
 				<div class="container row">
-					<div class="header-middle-logo col-md-3">
+					<div class="header-middle-logo  col-md-3">
 							<a href="index.html"><img src="images/dnsflogo.png" width="100%"></a>
 					</div>
 					<div class="header-middle-right col-md-3">
@@ -99,34 +79,82 @@ jQuery(document).ready(function($) {
 				</div>
 				<!-- //container -->
 			</div>
-			<div class="top-nav">
+
+
+
+
+
+
+<!-- simulate a smartphone/ tablate -->
+	<div class="mobile-container">
+		<!-- tope navigation menu -->
+		<div class="topnav">
+			<a href="index.html" class="active dnsf" style="color:#fff ">
+				DNSF
+			</a>
+			<div id="myLinks">
+					<a href="about.html">About us</a>                                     
+					<a href="gallery.html">Gallery</a>   
+					<a href="blog.html">Blogs</a>
+					<a href="contact.html">Contact</a>
+			</div>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+
+
+
+
+			<!-- <div class="top-nav"> -->
 				<!-- container -->
-				<div class="container">
-					<span class="menu">MENU</span>
+			<!-- 	<div class="container topnav">
+					<span class="menu"><a href="javascript:void(0);" class="icon menu" onclick="myFunction()">
+				<i class="fa fa-bars" style="color: #edf1f5;"></i></a></span>
+					
+			
 					<ul class="nav1">
-						<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li>
 						<li><a class="active" href="index.html">Home</a><li>
 						<li><a href="about.html">About us</a><li>                                         
-						<li><a href="gallery.html">Gallery</a><li>               
+						<li><a href="gallery.html">Gallery</a><li>                -->
 						<!-- <li><a href="articles.html">Articles</a><li>                   -->
-						<li><a href="blog.html">Blogs</a><li>                   
+						<!-- <li><a href="blog.html">Blogs</a><li>                    -->
 						<!-- <li><a href="typo.html">Typo</a><li>              -->
-						<li><a href="contact.html">Contact</a></li>
+				<!-- 		<li><a href="contact.html">Contact</a></li>
+						<li> </li>
 						<div class="clearfix"> </div>
-					</ul>
+					</ul> -->
 					<!-- script-for-menu -->
-							 <script> 
+							<!--  <script> 
 							   $( "span.menu" ).click(function() {
 								 $( "ul.nav1" ).slideToggle( 300, function() {
 								 // Animation complete.
 								  });
 								 });
 							
-							</script>
+							</script> -->
 						<!-- /script-for-menu -->
-				</div>
+				<!-- </div> -->
 				<!-- //container -->
-			</div>
+			<!-- </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			<div class="blue"> </div>
 		</div>
 		<!-- //header -->
@@ -166,9 +194,9 @@ jQuery(document).ready(function($) {
 							<li>
 								<div class="banner-img1"> </div>
 							</li>
-							<li>
+							<!-- <li>
 								<div class="banner-img2"> </div>
-							</li>
+							</li> -->
 							<li>
 								<div class="banner-img3"> </div>
 							</li>
@@ -407,53 +435,12 @@ jQuery(document).ready(function($) {
 		</div>
 		<!-- //banner-bottom -->
 		<!-- footer -->
-		<div class="footer">
-			<!-- container -->
-			<div class="container">
-				<div class="footer-top">
-						<div class="footer-grids">
-							<div class="col-md-3 f-address wow bounceIn" data-wow-delay="0.4s">
-								<h5>Address</h5>
-								<ul>
-									<li>Dan Ngerem Sports Foundation,</li>
-									<li>32 Balarabe Musa Crescent, </li> 
-									<li>Victoria Island,</li>
-									<li>Lagos, Nigeria</li>
-									<li>Telephone: +234 (0) 8037176661</li>
-									<li>E-mail : <a href="mailto:info@danngeremsportsfoundation.com">info@danngeremsportsfoundation.com</a></li>
-								</ul>
-							</div>
-							<div class="col-md-6 f-address f-contact wow bounceIn" data-wow-delay="0.4s">
-								<h5>Stay in Touch</h5>
-								<form>
-									<input type="text" placeholder="Email address" required="">
-									<input type="submit" value="Subscribe">
-								</form>
-							</div>
-							<div class="col-md-3 footer-logo wow bounceIn" data-wow-delay="0.4s">
-								<a href="index.html">DNSF</a>
-								<div class="footer-left">
-									<ul>
-										<li><a class="facebook" href="#"></a></li>
-										<li><a class="twitter" href="#"></a></li>
-										<li><a class="linked-in" href="#"></a></li>
-										<li><a class="you-tube" href="#"></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="footer-bottom">
-							<div class="copyright wow bounceIn" data-wow-delay="0.4s">
-							  	<p>© 2020 DNSF. All Rights Reserved | Design by  <a href="http://oluakainstitute.ng/" target="_blank">Oluaka Institute of Technology</a> </p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-				</div>
-			</div>
-			<!-- //container -->
-		</div>
+		<div id="footer"></div>
 		<!-- //footer -->
+
+
+		<script src="js/footer.js"></script>
+
 		<script type="text/javascript">
 									$(document).ready(function() {
 										/*
@@ -471,5 +458,16 @@ jQuery(document).ready(function($) {
 								</script>
 									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 	<!-- content-Get-in-touch -->
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myLinks");
+			if (x.style.display === "block") {
+				x.style.display = 'none';
+			} else {
+				x.style.display = 'block';
+			}
+		}
+	</script>
 	</body>
 </html>
