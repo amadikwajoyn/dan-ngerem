@@ -123,7 +123,7 @@ src: local('Avant Garde Demi Oblique BT'), url('../fonts/AVGARDDO_2.woff') forma
 	  /* height: 50px; */
 	  display: flex;
 	  justify-content: end;
-	  align-items: center;
+	  /* align-items: center; */
     }
     #myLinks {
       display: none;
@@ -145,7 +145,13 @@ src: local('Avant Garde Demi Oblique BT'), url('../fonts/AVGARDDO_2.woff') forma
 	  top: 0; 
 	  margin-left: auto;
 	  
-    }
+	}
+	.topnav a.icon:hover {
+		/* background-color: #F2C14E; */
+		color: #F2C14E !important;
+		background-color: #3f87a6 !important;
+
+	}
     .topnav a:hover {
       background-color: #F2C14E;
       color: black;
@@ -616,7 +622,12 @@ opacity: 0;
   left: 8px;
   right: 8px;
   z-index: 1044; }
-
+.mob-1090{
+	font-size: 27px !important;
+	font-family: 'Times New Roman', Times, serif;
+	padding-bottom: 100px;
+	/* text-align: justify; */
+}
 .mfp-preloader a {
   color: #cccccc; }
 
@@ -965,6 +976,11 @@ ul.social-slide li i.mac{
 	margin: 0 -0.2em
 }
 @media screen and (max-width: 600px) {
+	.mob-600{
+		font-size: .6em !important;
+		font-family: 'Times New Roman', Times, serif;
+		/* text-align: justify; */
+	}
   .callbacks_nav {
     top: 47%;
     }
@@ -2297,6 +2313,11 @@ font-size: 23px;
 /*-- responsive-design --*/
 @media (max-width:1080px)
 {
+	.mob-1080{
+		font-size: 20px !important;
+		font-family: 'Times New Roman', Times, serif;
+		/* text-align: justify; */
+	}
 	.top-nav ul li a {
 		padding: 1.3em 2em 1.31em;
 	}
@@ -2353,6 +2374,11 @@ font-size: 23px;
 }
 @media (max-width:991px)
 {
+	.mob-991{
+		font-size:34px !important;
+		font-family: 'Times New Roman', Times, serif;
+		/* text-align: justify; */
+	}
 	.header-middle-logo {
 		/*width: 27%;*/
     width: 100%;
@@ -2624,6 +2650,11 @@ opacity: 0;
 	}
 }
 @media (max-width:768px){
+	.mob-768{
+		font-size: 27px !important;
+		font-family: 'Times New Roman', Times, serif;
+		/* text-align: justify; */
+	}
 	.banner {
 	  min-height: 423px;
 	}
@@ -2647,6 +2678,11 @@ opacity: 0;
 }
 @media (max-width:640px)
 {
+	.mob-640{
+		font-size: 25px !important;
+		font-family: 'Times New Roman', Times, serif;
+		/* text-align: justify; */
+	}
 	.header-middle-logo {
 		width: 100%;
 	  text-align: center;
@@ -2765,6 +2801,11 @@ opacity: 0;
 	}
 }
 @media (max-width:600px){
+	.mob-600{
+		font-size: 18px !important;
+		font-family: 'Times New Roman', Times, serif;
+		/* text-align: justify; */
+	}
 	.header-top-left {
 	  float: none;
 	  text-align: center;
@@ -2779,7 +2820,7 @@ opacity: 0;
 @media (max-width:480px)
 {
 	figcaption .mob-480{
-			font-size: .7em !important;
+			font-size: 11px !important;
 			font-family: 'Times New Roman', Times, serif;
 			/* text-align: justify; */
 		}
@@ -2948,8 +2989,9 @@ opacity: 0;
 @media (max-width:320px)
 {
 	.mob-320 {
-		font-size: .5em !important;
+		font-size: 2.5px !important;
 		font-family: 'Times New Roman', Times, serif;
+		padding-bottom: 0px;
 	}
 	.header-middle-logo {
 		margin: 0 auto;
