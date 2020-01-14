@@ -174,7 +174,9 @@ src: local('Avant Garde Demi Oblique BT'), url('../fonts/AVGARDDO_2.woff') forma
 /*end hamburger*/
 
 
-
+.whatWeAre {
+	text-align: justify;
+}
 
 
 
