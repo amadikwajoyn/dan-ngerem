@@ -598,7 +598,9 @@ opacity: 0;
   display: none; }
 
 .mfp-hide {
-  display: none !important; }
+  /* display: none !important; */
+ 
+ }
 .mfp-content iframe{
   width:100%;
   min-height:500px;
@@ -1236,9 +1238,8 @@ figure.effect-bubba p {
 }
 .bride-grid {
     padding: 0 5px;
-    width: 33.333%;
+    min-width: 33.333%;
     float: left;
-  }
   font-size: 1.2em;
   }
   .l-grids h4 {
@@ -2350,7 +2351,7 @@ font-size: 23px;
     float: none;
 	}
   #small-dialog, #small-dialog1, #small-dialog2, #small-dialog3, #small-dialog4, #small-dialog5 {
-    padding: 0px 0 10px 0;
+    padding: 5px;
 }
 	.phone ul li.gray {
 		font-size: 15px;
@@ -2575,11 +2576,11 @@ opacity: 0;
 	}
 	.table-result{
 		float: left;
-		width: 33%;
+		min-width: 33%;
 	}
 	.news-grid {
 	  float: left;
-	  width: 33.33%;
+	  min-width: 33.33%;
 	}
 	.news-grid-left p {
 		font-size: 55px;
