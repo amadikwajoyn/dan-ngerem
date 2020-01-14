@@ -113,6 +113,7 @@ src: local('Avant Garde Demi Oblique BT'), url('../fonts/AVGARDDO_2.woff') forma
 }
 .fa .fa-bars:hover {
   color: #000000 !important;
+  background-color: #3f87a6;
 }
 
 .topnav {
@@ -139,9 +140,9 @@ src: local('Avant Garde Demi Oblique BT'), url('../fonts/AVGARDDO_2.woff') forma
     .topnav a.icon {
       background: #3f87a6;
       /* display: inline; */
-      /* position: absolute;
+      /* position: absolute; */
       right: 0;
-	  top: 0; */
+	  top: 0; 
 	  margin-left: auto;
 	  
     }
@@ -152,7 +153,7 @@ src: local('Avant Garde Demi Oblique BT'), url('../fonts/AVGARDDO_2.woff') forma
     }
     .active {
       background-color: #3f87a6;
-      color: white;
+	  color: white;
       text-align: left !important;
       font-family: "'Swis721CnBTBold'";
       height: 100%;
@@ -972,6 +973,11 @@ ul.social-slide li i.mac{
 .callbacks_tabs a{
  visibility: hidden;
 }
+
+.whoP {
+	padding: 9px 2em;
+    font-size: .5em;
+}
 .callbacks_tabs a:after {
   content: "\f111";
   font-size: 0;
@@ -1105,7 +1111,10 @@ ul.social-slide li i.mac{
 	display: block;
 	position: absolute;
 }
-
+figcaption {
+	width: 100%;
+	height: auto;
+}
 
 .l-grids h4 {
   font-size:1em;
@@ -2366,6 +2375,11 @@ font-size: 23px;
 		/*width: 66%;*/
     display: none;
 	}
+
+	.whoP {
+		padding: 9px 2em;
+		font-size: .5em;
+	}
 	.header-middle-logo img {
 		width: 50%;
 	}
@@ -2626,6 +2640,11 @@ opacity: 0;
     min-height: 423px;
   }
 }
+
+.whoP {
+	padding: 9px 2em;
+    font-size: .5em;
+}
 @media (max-width:640px)
 {
 	.header-middle-logo {
@@ -2646,6 +2665,11 @@ opacity: 0;
   #small-dialog, #small-dialog1, #small-dialog2, #small-dialog3, #small-dialog4, #small-dialog5 {
     border: 8px solid#eee;
   }
+
+  .whoP {
+	padding: 9px 2em;
+    font-size: .5em;
+}
 	.location {
 		margin-left: 0;
 		float: right;
@@ -2754,6 +2778,11 @@ opacity: 0;
 }
 @media (max-width:480px)
 {
+	figcaption .mob-480{
+			font-size: .7em !important;
+			font-family: 'Times New Roman', Times, serif;
+			/* text-align: justify; */
+		}
 	.header-top-left {
 		float: none;
 		text-align: center;
@@ -2800,6 +2829,10 @@ opacity: 0;
 	}
 	.how-right-left {
 		width: 25%;
+	}
+	.whoP {
+		padding: 9px 2em;
+		font-size: .5em;
 	}
 	.gallery {
 		padding: 1em 0 1em 0;
@@ -2914,6 +2947,10 @@ opacity: 0;
 }
 @media (max-width:320px)
 {
+	.mob-320 {
+		font-size: .5em !important;
+		font-family: 'Times New Roman', Times, serif;
+	}
 	.header-middle-logo {
 		margin: 0 auto;
 	}
@@ -2988,6 +3025,10 @@ opacity: 0;
 	  height: 35px;
 	  top: 16%;
 	  left: 43%;
+	}
+	.whoP {
+		padding: 9px 2em;
+		font-size: .4em;
 	}
 	.banner-bottom-grids {
 		padding-bottom: 1em;
